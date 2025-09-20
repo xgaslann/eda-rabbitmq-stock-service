@@ -3,3 +3,8 @@ spring:
     name: stock-service
 server:
   port: 8081
+
+rabbitmq:
+  queue:
+    order:
+      name: order-email-queue
